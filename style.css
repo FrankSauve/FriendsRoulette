@@ -1,0 +1,54 @@
+html, body {
+    background-color: #212121;
+}
+
+.logo {
+    width: 15%;
+    height: 70%;
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.columns {
+    align-content: center;
+    text-align: center;
+}
+
+.title {
+    text-align: center;
+    color: white;
+    margin-top: 10px;
+}
+
+.subtitle{
+    text-align: center;
+    color: #d6d6d6;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.roulette {
+    width: 50%;
+    margin-top:20px;
+}
+
+.roulette-spin {
+    -webkit-animation:spin 0.5s linear infinite;
+    -moz-animation:spin 0.5s linear infinite;
+    animation:spin 0.5s linear infinite;
+}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
+
+#thumbnail {
+    width: 50%;
+}
+
+#description {
+    color: #a8a8a8;
+}

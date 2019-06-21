@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+  <link rel="shortcut icon" href="assets/roulette.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Friends Roulette</title>
+</head>
+
+<body>
+  
+
+  <div class="columns is-mobile is-centered">
+      <div class="column is-four-fifths">
+        <h1 class="title">Friends Roulette</h1>
+        <h2 class="subtitle">Watched every episode of friends? Can't decide which episode to watch? Just leave it up to faith!</h2>
+        
+        <button class="button center" onclick="spin()">SPIN 🍀</button>
+
+        <img src="assets/roulette.png" id="roulette" class="center roulette">
+        <br>
+        
+        <img id="thumbnail" class="center">
+        <h2 id="episode" class="subtitle"></h2>
+        <p id="description"></p>
+
+
+      </div>
+    </div>
+
+
+  <script src="main.js"></script>
+  
+</body>
+
+</html>

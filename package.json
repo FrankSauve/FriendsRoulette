@@ -1,0 +1,22 @@
+{
+  "name": "FriendsRoulette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FrankSauve/FriendsRoulette.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FrankSauve/FriendsRoulette/issues"
+  },
+  "homepage": "https://franksauve.github.io/FriendsRoulette",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}

@@ -12,8 +12,6 @@ function spin() {
 }
 
 function getRandomEpisode() {
-
-
     $.getJSON('data/episodes.json', function (friends) {
         var season = Math.floor(Math.random() * 10);
         var episode = Math.floor(Math.random() * friends.seasons[season].episodes.length);
